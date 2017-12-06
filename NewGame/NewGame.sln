@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewGame", "NewGame\NewGame.vcxproj", "{BBAE59E9-1A8A-4ACE-934A-71C25C7FE4F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBAE59E9-1A8A-4ACE-934A-71C25C7FE4F7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BBAE59E9-1A8A-4ACE-934A-71C25C7FE4F7}.Debug|Win32.Build.0 = Debug|Win32
+		{BBAE59E9-1A8A-4ACE-934A-71C25C7FE4F7}.Release|Win32.ActiveCfg = Release|Win32
+		{BBAE59E9-1A8A-4ACE-934A-71C25C7FE4F7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

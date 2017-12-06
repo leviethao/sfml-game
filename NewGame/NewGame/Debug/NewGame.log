@@ -1,0 +1,25 @@
+﻿Build started 06/12/2017 6:44:41 PM.
+     1>Project "D:\VirtualMachine\Windows 7\VMWare_ShareData\Visual Studio 2012 Project\NewGame\NewGame\NewGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\VirtualMachine\Windows 7\VMWare_ShareData\Visual Studio 2012 Project\NewGame\NewGame\..\SFML-2.4.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt World.cpp
+         World.cpp
+     1>d:\virtualmachine\windows 7\vmware_sharedata\visual studio 2012 project\newgame\newgame\world.cpp(44): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\virtualmachine\windows 7\vmware_sharedata\visual studio 2012 project\newgame\newgame\world.cpp(55): warning C4996: 'sf::Text::setColor': was declared deprecated
+                 d:\virtualmachine\windows 7\vmware_sharedata\visual studio 2012 project\newgame\sfml-2.4.0\include\sfml\graphics\text.hpp(177) : see declaration of 'sf::Text::setColor'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VirtualMachine\Windows 7\VMWare_ShareData\Visual Studio 2012 Project\NewGame\Debug\NewGame.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\VirtualMachine\Windows 7\VMWare_ShareData\Visual Studio 2012 Project\NewGame\NewGame\..\SFML-2.4.0\lib" d3d11.lib d3dx11d.lib D3DCompiler.lib Effects11d.lib dxerr.lib dxgi.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VirtualMachine\Windows 7\VMWare_ShareData\Visual Studio 2012 Project\NewGame\Debug\NewGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VirtualMachine\Windows 7\VMWare_ShareData\Visual Studio 2012 Project\NewGame\Debug\NewGame.lib" /MACHINE:X86 Debug\Application.obj
+         Debug\Ball.obj
+         Debug\Entity.obj
+         Debug\Fragment.obj
+         Debug\Particle.obj
+         Debug\ParticleNode.obj
+         Debug\SceneNode.obj
+         Debug\Utilities.obj
+         Debug\main.obj
+         Debug\World.obj
+         NewGame.vcxproj -> D:\VirtualMachine\Windows 7\VMWare_ShareData\Visual Studio 2012 Project\NewGame\Debug\NewGame.exe
+     1>Done Building Project "D:\VirtualMachine\Windows 7\VMWare_ShareData\Visual Studio 2012 Project\NewGame\NewGame\NewGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.63
